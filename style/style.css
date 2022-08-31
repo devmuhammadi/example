@@ -22,6 +22,8 @@ body{
 
 .btn-group button {
     background-color: #04AA6D; /* Green background */
+    height: 100%;
+    width: 100px;
     border: 1px solid green; /* Green border */
     color: white; /* White text */
     cursor: pointer; /* Pointer/hand icon */
