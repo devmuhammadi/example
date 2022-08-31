@@ -22,15 +22,15 @@ $(document).ready(function() {
                     audio.play();
                     if (page === 1) {
                         $("#magazine").css({"z-index":20});
-                        // $("#start-clear").css({"z-index":50, display: 'block'})
-                        // $("#button-navigasi-cover").css({"z-index":50, display: 'flex'})
-                        // $("#button-navigasi").css({"z-index":50, display: 'none'})
-                        // $("#navigate-cover").css({"z-index": 30})
-                        $("#index-clear").css({"z-index": 50, display: 'flex'})
+                        $("#start-clear").css({"z-index":50, display: 'block'})
+                        $("#button-navigasi-cover").css({"z-index":50, display: 'flex'})
+                        $("#button-navigasi").css({"z-index":50, display: 'none'})
+                        $("#navigate-cover").css({"z-index": 30})
+                        $("#index-clear").css({"z-index": 50, display: 'none'})
                         clearLinkReference()
                     } else if (page === 5) {
                         $("#button-navigasi").css({"z-index":50, display: 'flex'})
-                        $("#index-clear").css({"z-index": 30, display: 'block'})
+                        $("#index-clear").css({"z-index": 30, display: 'flex'})
                        clearLinkReference()
                     } else if (page === 8) {
                         $("#button-navigasi").css({"z-index":50, display: 'flex'})
